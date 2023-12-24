@@ -52,3 +52,63 @@
 
 
 
+// practise Q1
+
+// let heading = document.querySelector("h2");
+// console.dir(heading.innerText);
+
+// heading.innerText = heading.innerText + " From Apna College";
+
+
+// practise Q2
+
+// let divs = document.querySelectorAll(".box");
+
+// let idx = 1;
+// for (div of divs) {
+//     div.innerText = `New unique value ${idx}`;
+//     idx++;
+// }
+
+// divs[0].innerText = "New Unique Value 1";
+// divs[1].innerText = "New Unique Value 2";
+// divs[2].innerText = "New Unique Value 3";
+
+// Artibutes
+
+// let para = document.querySelector("p");
+// console.log(para.getAttribute("id"));
+// console.log(para.setAttribute("id" ,"NEW-ID"));
+
+
+// let div = document.querySelector("div");
+// console.log(div);   
+
+// div.style.backgroundColor = "Green";
+// div.style.backgroundColor = "black";
+
+// let button = document.createElement("button");
+// console.log(button);
+// button.innerText = 'Click me!';
+
+// let div = document.querySelector("div");
+// console.dir(div);
+
+
+// Practise Q1
+
+
+let button = document.createElement("button");
+
+button.innerText = "Click ME!";
+button.style.backgroundColor = "red";
+button.style.color = "white";
+
+document.querySelector("body").prepend(button);
+
+
+// Practise Q2
+
+let myParagraph = document.getElementById("myParagraph");
+
+myParagraph.classList.add("additionalClass");
